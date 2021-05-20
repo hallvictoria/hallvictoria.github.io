@@ -1608,16 +1608,16 @@ button,
   flex-wrap: wrap;
   margin: 0 0 2em -3em;
   width: calc(100% + 3em); }
-  .features article {
-    -moz-align-items: center;
+   .features article {
+    /*-moz-align-items: center;
     -webkit-align-items: center;
     -ms-align-items: center;
-    align-items: center;
+    align-items: center; */ /* Centering around icon*/
     display: -moz-flex;
     display: -webkit-flex;
     display: -ms-flex;
     display: flex;
-    margin: 0 0 3em 3em;
+    margin: 0 0 5em 3em; /* spacing between items*/
     position: relative;
     width: calc(50% - 3em); }
     .features article:nth-child(2n - 1) {
